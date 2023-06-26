@@ -1,0 +1,62 @@
+.caja{
+    border: 2px solid black;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 150px;
+    background-color: white;
+}
+
+img{
+    width: 150px;
+}
+
+.flex-container{
+    text-align: center;
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 0%;
+    margin-top: 0;
+}
+
+ul{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-size: 30px;
+    margin-top: 0;
+}
+
+li{
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+.super-container{
+    background-color: rgb(247, 247, 248);
+}
+
+button{
+
+    background-color: rgb(77, 77, 226);
+    color: aliceblue;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: blue;
+    color: aliceblue;
+    padding: 5px;
+    font-size: larger;
+    border-radius: 15px;
+}

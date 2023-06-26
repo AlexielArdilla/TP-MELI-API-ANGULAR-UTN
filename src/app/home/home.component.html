@@ -1,0 +1,9 @@
+<div class="flex-container">
+    <div *ngFor="let item of productos" class="caja">
+        <img src={{item.thumbnail}} alt="imagen">
+        <hr>
+        <p>{{item.title}}</p>
+        <h3>AR${{item.price}}</h3>
+        <button routerLink="detalle/{{item.id}}">Detalle</button>
+    </div><br>
+</div>
